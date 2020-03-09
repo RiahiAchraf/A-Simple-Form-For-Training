@@ -1,0 +1,69 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #d4fffd;
+    color: steelblue;
+}
+/* Start Form*/
+
+h2 {
+    text-align: center;
+    text-transform: capitalize;
+    color: steelblue;
+    font-size: 40px;
+}
+
+form {
+    margin: 20px auto;
+    width: 320px;
+}
+
+input {
+    padding: 10px;
+    font-size: inherit;
+}
+/*Start Input Text*/
+
+input[type="text"], input[type="password"], input[type="email"] {
+    display: block;
+    margin-bottom: 25px;
+    width: 100%;
+    border: 2px solid steelblue;
+    background-color: #FAF6D9;
+}
+input:focus {
+    background-color: #fff;
+}
+
+/*Start Input Text*/
+/*Start Input Radio*/
+
+input[type="radio"] {
+    margin: 0px 8px 25px 18px;
+}
+input[type="radio"]:first-child {
+    margin-left: 0px;
+}
+input[type="radio"]:checked + label {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/*Start Input Radio*/
+/*Start Input Submit*/
+
+input[type="submit"]{
+    background-color: steelblue;
+    color: #fff;
+    width: 344px;
+    height: 45px;
+    border: solid steelblue;
+}
+input[type="submit"]:focus {
+    background-color: #fff;
+    color: steelblue;
+    border: solid steelblue;
+}
+
+/*Start Input Submit*/
+/* End Form*/
